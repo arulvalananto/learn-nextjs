@@ -1,0 +1,44 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 65px;
+  width: 100vw;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 30;
+}
+.container1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 65px;
+  background: #141414;
+  width: 100vw;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 30;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.right {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.powerOff {
+  cursor: pointer;
+}

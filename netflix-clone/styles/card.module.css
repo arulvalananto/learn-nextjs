@@ -1,0 +1,9 @@
+.container {
+  border-radius: 4px;
+  overflow: hidden;
+  transition: all 0.4s ease-out;
+  object-fit: cover;
+}
+.container:hover {
+  transform: scale(1.05);
+}

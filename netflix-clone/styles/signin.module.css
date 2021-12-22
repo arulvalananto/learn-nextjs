@@ -1,0 +1,62 @@
+.container {
+  background: url("https://assets.nflxext.com/ffe/siteui/vlv3/3679b63e-5d92-47a1-96ec-b26d86fc0f0a/5f2448e1-fdc2-45c0-9e1e-d1738caadfd3/IN-en-20211213-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  width: 100vw;
+  height: 100vh;
+  object-fit: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imageContainer {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.card {
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  margin: 0px;
+  min-height: 250px;
+  padding: 20px 30px;
+  min-width: 380px;
+}
+.formTitle {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 28px;
+}
+.button {
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 24px 0px 12px;
+  background: rgb(229, 9, 20);
+  padding: 1rem;
+  border: none;
+  color: white;
+}
+
+.input {
+  box-sizing: border-box;
+  font-size: 16px;
+  border: 1px solid rgb(140, 140, 140);
+  border-radius: 2px;
+  display: block;
+  appearance: none;
+  width: 100%;
+  padding: 10px 11px;
+  height: 44px;
+  background: #333333;
+  color: #fff;
+  border: none;
+}
+
+.input:focus {
+  outline: 2px solid #e87c03;
+}

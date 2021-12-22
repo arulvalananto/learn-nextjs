@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "name": "Vila Nova de Gaia",
+    "imageUrl": "https://images.unsplash.com/photo-1521017432531-fbd92d768814?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format",
+    "webUrl": "vilanovadegaia.com",
+    "address": "Vila Nova de Gaia, Portugal",
+    "neighborhood": "Portugal",
+    "count": 1
+  },
+  {
+    "id": "2",
+    "name": "eten & drinken",
+    "imageUrl": "https://images.unsplash.com/photo-1523368749929-6b2bf370dbf8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format",
+    "webUrl": "",
+    "address": "Wolstraat, Antwerpen, Belgium",
+    "neighborhood": "Antwerpen",
+    "count": 1
+  },
+  {
+    "id": "3",
+    "name": "CAFEMATIC",
+    "imageUrl": "https://images.unsplash.com/photo-1518739745383-0ef26e9dd7fd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format",
+    "webUrl": "",
+    "address": "Antwerp, Belgium",
+    "neighborhood": "Belgium",
+    "count": 1
+  },
+  {
+    "id": "4",
+    "name": "Espresso",
+    "imageUrl": "https://images.unsplash.com/photo-1464979681340-bdd28a61699e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format",
+    "webUrl": "",
+    "address": "Tel Aviv-Yafo, Israel",
+    "neighborhood": "Israel",
+    "count": 1
+  }
+]
