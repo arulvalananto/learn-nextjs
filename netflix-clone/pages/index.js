@@ -11,14 +11,12 @@ export async function getServerSideProps() {
   const dc = await getVideos("dc");
   const travel = await getVideos("travel");
 
-  console.log(dc);
-
   return {
     props: {
-      disney,
-      marvel,
-      dc,
-      travel,
+      disney: disney || [],
+      marvel: marvel || [],
+      dc: dc || [],
+      travel: travel || [],
     },
   };
 }
@@ -40,10 +38,10 @@ export default function Home({ disney, marvel, dc, travel }) {
         title="Concussion"
         subtitle="This drama is based on the true story of a forensic pathologist who made a controversial link between NFL players' concussions and brain disorders"
       />
-      <Showcase size="small" data={dc} title="DC" />
-      <Showcase size="medium" data={disney} title="Disney" />
-      <Showcase size="large" data={marvel} title="Marvel" />
-      <Showcase size="small" data={travel} title="Travel" />
+      <Showcase size="small" data={dc ? dc : []} title="DC" />
+      <Showcase size="medium" data={disney ? disney : []} title="Disney" />
+      <Showcase size="large" data={marvel ? marvel : []} title="Marvel" />
+      <Showcase size="small" data={travel ? travel : []} title="Travel" />
     </div>
   );
 }

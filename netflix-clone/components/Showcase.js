@@ -24,6 +24,8 @@ const Showcase = ({ title, size, data }) => {
     );
   };
 
+  if (!data) return null;
+
   return (
     <div className={styles.container}>
       <h1 className={styles.showcaseTitle}>{title}</h1>

@@ -6,11 +6,15 @@ export const getVideos = async (query) => {
   );
 
   const data = await response.json();
-  return data.items
-    .map((image) => {
-      return image.snippet
-        ? { id: image.etag, image: image.snippet.thumbnails.high.url }
-        : undefined;
-    })
-    .filter((el) => el)
+  console.log(data);
+
+  if (response) {
+    return data?.items
+      ?.map((image) => {
+        return image.snippet
+          ? { id: image.etag, image: image.snippet.thumbnails.high.url }
+          : undefined;
+      })
+      .filter((el) => el);
+  }
 };

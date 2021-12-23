@@ -42,3 +42,8 @@
 .powerOff {
   cursor: pointer;
 }
+
+.logout {
+  background: transparent;
+  border: none;
+}
